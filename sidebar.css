@@ -1,0 +1,49 @@
+.sidebar {
+  position: fixed;
+  top: 38%;
+  left: 0%;
+}
+
+
+#sidebarContent {
+  margin-left: -80px;
+  width: 80px;
+  height: 240px;
+  padding: 5px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius: 15px;
+  transition: margin 0.5s;
+  background-color: gray;
+  /*example of using transition attributes*/
+}
+#sidebarContent:hover{
+  margin-left:0px;
+}
+#sidebarbtn {
+  padding: 0.75em 1em;
+}
+
+#sidebarOhverDiv {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  background-color: tomato;
+  margin-top: -130px;
+  margin-left: 32px;
+  transform: rotate(-90deg);
+  width: 120px;
+  height: 35px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+
+}
+.sidebarContent img {
+  border: 2px solid rgba(0, 0, 0, 0.0);
+}
+.sidebarContent img:hover {
+  border: 2px solid tomato;
+  border-radius: 50px;
+
+}

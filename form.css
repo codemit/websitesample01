@@ -1,0 +1,104 @@
+#divForm{
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  clear: left;
+  background-image: url(loginbg.jpg);
+}
+
+.logDiv {
+  margin: 20px 10px 20px 800px;
+  width: 100%;
+  max-width: 350px;
+  height: 420px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+.logDiv input{
+  display: block;
+  width: 310px;
+  margin-top: 25px;
+}
+.logDiv input[type="text"],
+.logDiv input[type="password"],
+.logDiv input[type="number"],
+.logDiv input[type="email"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+select {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  width: 310px;;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+}
+form input[type="submit"] {
+  font-size: 26px;
+  border: none;
+  height: 50px;
+  background-color: tomato;
+  color: #fff;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: lightgray;
+  color: #000;
+}
+form header {
+  font-size: 26px;
+  color: tomato;
+  font-family: serif;
+  text-align: center;
+  margin-bottom: -10px;
+}
+form hr {
+ color: tomato;
+ border-left: 0px;
+ border-right: 0px;
+ height: 5px;
+ border-style: dashed;
+}
+
+/* beside form data form registered members */
+
+#members {
+
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-right: 0px;
+  max-width: 600px;
+  float:left;
+}
+
+.memberHeader {
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 600px;
+  color: #fff;
+  background-color: tomato;
+}
+.membertotal {
+  height: 100px;
+  width: 600px;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  margin-top: 0px;
+  color: #000;
+  background-color: rgba(255,255, 255, 0.8);
+}

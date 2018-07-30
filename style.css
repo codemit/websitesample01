@@ -1,0 +1,218 @@
+body {
+  margin: 0 auto;
+  background-color: #f0f0f0
+}
+* {
+  box-sizing: border-box;
+}
+.links{
+  position: absolute;
+  width: 100%;
+  background-color: lightgray;
+  padding: 17px;
+}
+.linkCentered {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.linkCentered a{
+  font-size: 17px;
+  padding: 17px;
+  background-color: lightgray;
+  font-family: sans-serif, verdana;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+.linkCentered a:hover{
+  padding: 17px;
+  background-color: tomato;
+  color: #fff;
+}
+
+.mainContent {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  padding:0px;
+  width:100%;
+  height: auto;
+
+}
+
+.boxLink {
+  width: 330px;
+  height: 430px;
+  border: 1px solid lightgray;
+  margin: 20px 35px 20px 35px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0,0.2);
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  top: 0;
+  text-align: center;
+  transition: all 0.25s;
+}
+.boxLink:hover {
+  top: -15px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+#leftBox {
+  float: left;
+}
+
+#middleBox {
+  float: left;
+}
+
+#rightBox {
+  float: left;
+  clear: none;
+}
+
+.boxLink a {
+  color: #3c3c3c;
+  font-size: 1.1em;
+  font-family: Courier;
+  text-decoration: none;
+  font-weight: bold;
+}
+.boxLink a:hover {
+  color: tomato;
+}
+
+.boxLink p {
+  font-size: 16px;
+  color: gray;
+  text-align: justify center;
+  padding: 15px 15px 5px 15px;
+  margin: 30px auto 0px auto;
+}
+
+.h2 {
+  color: #fff;
+  font-size: 28px;
+  font-family: sans-serif, verdana;
+}
+.p {
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+
+}
+.margin4 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.serviceContent {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.box {
+  width: 280px;
+  height: 400px;
+  margin: 5px 10px 0px 10px;
+  background-color: lightgray;
+  padding: 15px;
+}
+.serviceContent img {
+  height: 70px;
+  width: 70px;
+}
+.box h2{
+  color: tomato;
+  font-family: sans-serif;
+}
+.text1 span {
+  color: tomato;
+}
+#box1 {
+  float: left;
+}
+#box2 {
+  float: left;
+}
+#box3 {
+  float: left;
+}
+#box4 {
+  float: left;
+}
+/*to clear the flaot effect on the rest of the of the divs*/
+/*.box:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.footer {
+
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 0px;
+  padding: 20px;
+}
+.footer img {
+  border: 2px solid rgba(0, 0, 0, 0.0);
+}
+
+.footerContent {
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #fff;
+  text-align: center;
+}
+
+.footerContent img:hover {
+  border: 2px solid tomato;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
